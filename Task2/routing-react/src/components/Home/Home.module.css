@@ -1,0 +1,41 @@
+/* Ensure the body and html take up the full height */
+html, body {
+  height: 100%;
+  width: 100%;
+  margin: 0;
+}
+
+/* Centering the content in the page */
+.home-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh; /* Full viewport height */
+  width: 100%;
+  font-family: Arial, sans-serif;
+  box-sizing: border-box; /* Avoid layout issues */
+}
+
+/* Styling for the header */
+.home-container h1 {
+  color: #333;
+  font-size: 3rem;
+  margin-bottom: 20px;
+}
+
+/* Styling the button */
+.home-container button {
+  padding: 10px 20px;
+  font-size: 1rem;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.home-container button:hover {
+  background-color: #0056b3;
+}
